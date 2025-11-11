@@ -28,7 +28,7 @@
   .landing-bg { position: fixed; inset: 0; background: radial-gradient(1600px 800px at 20% 10%, rgba(124,92,255,0.18), transparent), radial-gradient(1400px 800px at 80% 30%, rgba(0,227,255,0.15), transparent); pointer-events:none; background-size: cover; }
   .landing-header { display:flex; align-items:center; justify-content:space-between; padding: 16px 24px; }
   .brand { display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:.3px; }
-  .brand.mini { opacity:.9; }
+  .brand.mini { opacity:.9;}
   .logo-dot { width:12px; height:12px; border-radius:50%; background: linear-gradient(45deg, var(--brand), var(--brand-2)); box-shadow: 0 0 24px rgba(124,92,255,.6); }
   .brand-text { font-size: 14px; color: var(--muted); }
   
@@ -111,11 +111,11 @@
 .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px; margin-top:16px; text-align:left; }
 .kpi { background:rgba(255,255,255,.03); border:1px solid var(--border); border-radius:12px; padding:12px; }
 .kpi-label { color:var(--muted); font-size:12px; }
-.kpi-value { font-size:18px; font-weight:700; }
+.kpi-value { font-size:18px; font-weight:700; color: white; }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size:14px; }
 
 /* Raw details */
-.details { text-align:left; margin-top:16px; }
+.details { text-align:left; margin-top:16px; color: white; }
 .pre { margin:10px 0 0; padding:12px; background:rgba(255,255,255,.03); border:1px solid var(--border);
   border-radius:12px; overflow:auto; }
 
